@@ -1,0 +1,12 @@
+.subtext {
+  color: rgb(255, 255, 255, 0.6) !important;
+}
+.cardexperience {
+  transition: all 400ms ease !important;
+}
+
+.cardexperience:hover {
+  background: transparent !important;
+  border-color: #4db5ff !important;
+  cursor: default;
+}

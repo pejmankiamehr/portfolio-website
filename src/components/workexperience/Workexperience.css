@@ -1,0 +1,13 @@
+.avatar{
+    width: 5rem !important;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50% !important;
+    margin:1rem auto 1rem;
+    border: 0.2rem solid #4db5ff;
+
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+    background: #4db5ff;
+}

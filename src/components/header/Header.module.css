@@ -1,0 +1,12 @@
+.meheader {
+  background: linear-gradient(#4db5ff, transparent);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1rem 1.5rem;
+}
+.scroldown {
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}

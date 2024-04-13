@@ -1,0 +1,17 @@
+ .icon:hover {
+    color: #ffffff !important;
+  }
+  .socials{
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .socials::after {
+    content: '';
+    width: 2px;
+    height: 2rem;
+    background: #4db5ff;
+
+  }

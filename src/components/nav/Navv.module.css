@@ -1,0 +1,35 @@
+.navbarr{
+    background: rgba(0, 0, 0,0.3);
+    width: max-content;
+    display: block;
+    padding:0.7rem 1.5rem !important;
+    z-index: 2;
+    position: fixed !important;
+    left: 50%;
+    bottom: 3rem;
+    display: flex;
+    transform: translateX(-50%);
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.navbarr a {
+    background: transparent;
+    padding: 0.6rem !important;
+    border-radius: 50%;
+    display: flex;
+    color: rgb(255,255,255,0.6);
+    font-size: 1.3rem;
+}
+.navbarr  a:hover{
+    background: rgba(0, 0, 0,0.3);
+    color: #fff !important;
+   
+}
+
+
+
+
+

@@ -1,0 +1,35 @@
+
+.aboutme {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(40deg, transparent, #4db5ff, transparent);
+  display: grid;
+  place-items: center;
+}
+.imgbox {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: all 400ms ease;
+}
+.imgbox:hover {
+  transform: rotate(0);
+}
+
+.iconcard{
+color: #4db5ff !important;
+font-size: 1.4rem !important;
+margin-bottom: 1rem !important;
+}
+.textcard{
+color: rgb(255,255,255,0.6) !important;
+
+
+}
+.text{
+color: rgb(255,255,255,0.6) !important;
+margin: 2rem 0 2.6rem;
+
+
+}

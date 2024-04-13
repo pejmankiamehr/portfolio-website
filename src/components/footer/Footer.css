@@ -1,0 +1,46 @@
+.footer {
+  background: #4db5ff !important;
+}
+
+.boxlogo {
+  border: 1px solid transparent !important;
+  background: #1f1f38;
+  border-radius: 50%;
+  padding: 0.6rem;
+  transition: all 400ms ease;
+}
+.boxlogo:hover {
+  background: transparent !important;
+  color: #1f1f38;
+  border-color: #1f1f38 !important;
+}
+
+.iconfooter {
+  border: 1px solid transparent !important;
+  background: #1f1f38 !important;
+  color: #fff !important;
+  margin: 0 1rem;
+  transition: all 400ms ease;
+}
+.iconfooter:hover {
+  background: transparent !important;
+  color: #1f1f38;
+  border-color: #1f1f38 !important;
+}
+.navfooter a.nav-link {
+  color: #1f1f38 !important;
+  font-size: 1.2rem !important;
+  transition: all 400ms ease;
+}
+.navfooter a:hover {
+  color: #fff !important;
+}
+
+.textname {
+  color: #1f1f38 !important;
+  font-size: 1.3rem;
+  transition: all 400ms ease;
+}
+.textname:hover {
+  color: #fff !important;
+}
