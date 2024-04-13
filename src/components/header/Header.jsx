@@ -5,7 +5,7 @@ import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <Container className="text-center overflow-hidden  " id="header">
+    <Container className="containerheader text-center overflow-hidden" id="header">
       <Stack>
         <h5>Hello I'm </h5>
         <h1>Pejman Kiamehr</h1>
@@ -13,16 +13,16 @@ function Header() {
       </Stack>
       <CvT />
       <Row xs={1} md={3} lg={3}>
-        <Col  className=" d-none d-md-flex text-center bottom-0"  md={1}>
+        <Col  className=" d-none d-md-flex text-center bottom-0" >
           <HeaderSocials />
         </Col>
-        <Col xs={12} md={10}>
+        <Col xs={12} >
           <Stack className={styles.meheader}>
-            <img src="/images/kiamehr.png" alt="kiamehr" title="کیامهر" className=" h-100" />
+            <img src="/images/kiamehr.png" alt="kiamehr" title="کیامهر" className=" w-75 object-fit-cover"/>
           </Stack>
         </Col>
 
-        <Col className=" d-none d-md-inline-flex text-center "   md={1}>
+        <Col className=" d-none d-md-inline-flex justify-content-center text-center " >
           <NavLink href="#contact" className={styles.scroldown}>
             Scroll Down
           </NavLink>

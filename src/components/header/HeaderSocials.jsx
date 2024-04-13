@@ -14,7 +14,7 @@ function HeaderSocials() {
         <NavLink href="https://linkedin.com" target="_blank" className={styles.icon}>
           <BsLinkedin/>
         </NavLink>
-        <NavLink href="https://github.com" target="_blank" className={styles.icon}>
+        <NavLink href="https://github.com/pkiamehr" target="_blank" className={styles.icon}>
           <FaGithub />
         </NavLink>
         <NavLink href="https://dribbble.com" target="_blank" className={styles.icon}>

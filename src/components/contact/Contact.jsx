@@ -38,13 +38,13 @@ const Contact = () => {
     setValidated(true);
   };
   return (
-    <Container  id="contact">
+    <Container id="contact">
       <Stack className=" text-center">
         <h5>Get To Know</h5>
         <h2>About Me</h2>
       </Stack>
       <Row lg={2} xs={1} md={2} className=" mt-4 g-5 justify-content-center">
-        <Col lg={3} >
+        <Col lg={3}>
           <Row xs={1} className="gy-4 text-center">
             <Col>
               <Card className=" text-white pb-3">
@@ -92,16 +92,19 @@ const Contact = () => {
         </Col>
 
         <Col lg={6} className=" mb-5 mb-lg-0">
+          <Stack className=" text-center mb-5">
+            <h5>Send Email</h5>
+          </Stack>
           <Form ref={formmail} noValidate validated={validated} onSubmit={sendEmail}>
-            <Form.Group className="mb-5 inputmail" controlId="formBasicName" >
-              <Form.Control required data-bs-theme="dark" className=" p-3 border-secondary bg-transparent" type="text" name="name" placeholder="Enter Your Full Name" />
+            <Form.Group className="mb-5 inputmail" controlId="formBasicName">
+              <Form.Control autoComplete="off" required data-bs-theme="dark" className=" p-3 border-secondary bg-transparent" type="text" name="name" placeholder="Enter Your Full Name" />
             </Form.Group>
 
             <Form.Group className="mb-5 inputmail" controlId="formBasicEmail">
-              <Form.Control required data-bs-theme="dark" className=" p-3 border-secondary bg-transparent  " type="email" name="email" placeholder="Enter Your Email" />
+              <Form.Control autoComplete="off" required data-bs-theme="dark" className=" p-3 border-secondary bg-transparent  " type="email" name="email" placeholder="Enter Your Email" />
             </Form.Group>
             <Form.Group className="mb-5 inputmail" controlId="exampleForm.ControlTextarea1">
-              <Form.Control required data-bs-theme="dark" className=" p-3 border-secondary   bg-transparent" type="text" name="message" as="textarea" rows={3} placeholder="Message" />
+              <Form.Control autoComplete="off" required data-bs-theme="dark" className=" p-3 border-secondary   bg-transparent" type="text" name="message" as="textarea" rows={3} placeholder="Message" />
             </Form.Group>
             <Button variant="primary" size="sm" type="submit">
               Send Message

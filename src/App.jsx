@@ -2,13 +2,13 @@ import "./App.css";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
-import Services from "./components/services/Services";
+// import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Workexperience from "./components/workexperience/Workexperience";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Navv from "./components/nav/Navv";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (

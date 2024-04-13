@@ -13,10 +13,10 @@ const About = () => {
         <h2>About Me</h2>
       </Stack>
       <Row className="justify-content-center gap-5">
-        <Col lg={4} xs={10} className=" mb-5 mb-md-0">
+        <Col lg={3} xs={10} className=" mb-5 mb-md-0">
           <div className="aboutme">
             <div className="imgbox">
-              <Image src="images/pejman kiamehr.png" alt="pejman kiamehr" title="پژمان کیامهر" className="me" />
+              <Image src="images/pejman kiamehr.png" alt="pejman kiamehr" title="پژمان کیامهر" className="me w-100 object-fit-cover" />
             </div>
           </div>
         </Col>
@@ -33,17 +33,6 @@ const About = () => {
                 </Card.Body>
               </Card>
             </Col>
-            {/* <Col>
-              <Card className=" text-white">
-                <Card.Body>
-                  <Card.Title className="iconcard">
-                    <FiUsers />
-                  </Card.Title>
-                  <Card.Subtitle className="mb-2 ">Clients</Card.Subtitle>
-                  <Card.Text className="textcard">200+ worldwide</Card.Text>
-                </Card.Body>
-              </Card>
-            </Col> */}
             <Col>
               <Card className=" text-white">
                 <Card.Body>
@@ -63,7 +52,9 @@ const About = () => {
               with multiple front-end developers.
             </p>
             <Nav className=" justify-content-center justify-content-md-start mt-3">
-              <NavLink href="#contact" className="btn-sm btn-primary rounded-2">Let's Talk</NavLink>
+              <NavLink href="#contact" className="btn-sm btn-primary rounded-2">
+                Let's Talk
+              </NavLink>
             </Nav>
           </Stack>
         </Col>
