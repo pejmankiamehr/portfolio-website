@@ -12,19 +12,19 @@ const Navv = () => {
   return (
     <Navbar className={styles.navbarr} data-bs-theme="dark">
       <Nav  defaultActiveKey="#header" className=" gap-2">
-        <NavLink href="#header">
+        <NavLink href="#header" title="header">
           <AiOutlineHome />
         </NavLink>
-        <NavLink href="#about">
+        <NavLink href="#about" title="about">
           <AiOutlineUser />
         </NavLink>
-        <NavLink href="#experience">
+        <NavLink href="#experience" title="experience">
           <BiBook />
         </NavLink>
-        <NavLink href="#portfolio">
+        <NavLink href="#portfolio" title="portfolio">
           <BsPersonWorkspace />
         </NavLink>
-        <NavLink href="#contact">
+        <NavLink href="#contact" title="contact">
           <BiMessageSquareDetail />
         </NavLink>
       </Nav>

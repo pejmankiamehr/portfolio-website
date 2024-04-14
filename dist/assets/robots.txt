@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow:/images/pejmankiamehr.jpg
+Sitemap: https://pejmankiamehr.ir/sitemap.xml
+
+
+
+
+
+
+
