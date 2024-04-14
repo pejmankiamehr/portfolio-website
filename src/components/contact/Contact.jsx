@@ -38,7 +38,7 @@ const Contact = () => {
     setValidated(true);
   };
   return (
-    <Container id="contact">
+    <Container className="containers" id="contact">
       <Stack className=" text-center">
         <h5>Get To Know</h5>
         <h2>About Me</h2>

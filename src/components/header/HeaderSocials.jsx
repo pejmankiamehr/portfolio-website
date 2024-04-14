@@ -11,13 +11,13 @@ function HeaderSocials() {
   return (
     <>
       <Nav className={`d-none d-md-flex ${styles.socials}`}>
-        <NavLink href="https://linkedin.com" target="_blank" className={styles.icon}>
+        <NavLink href="https://linkedin.com" title="linkedin" target="_blank" className={styles.icon}>
           <BsLinkedin/>
         </NavLink>
-        <NavLink href="https://github.com/pkiamehr" target="_blank" className={styles.icon}>
+        <NavLink href="https://github.com/pkiamehr" title="github" target="_blank" className={styles.icon}>
           <FaGithub />
         </NavLink>
-        <NavLink href="https://dribbble.com" target="_blank" className={styles.icon}>
+        <NavLink href="https://dribbble.com" title="dribbble" target="_blank" className={styles.icon}>
           <FaDribbble />
         </NavLink>
       </Nav>

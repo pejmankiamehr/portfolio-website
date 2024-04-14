@@ -18,12 +18,12 @@ function Header() {
         </Col>
         <Col xs={12} >
           <Stack className={styles.meheader}>
-            <img src="/images/kiamehr.png" alt="kiamehr" title="کیامهر" className=" w-75 object-fit-cover"/>
+            <img src="/images/kiamehr.png" alt="پژمان" title="pejman" className=" w-75 object-fit-cover"/>
           </Stack>
         </Col>
 
         <Col className=" d-none d-md-inline-flex justify-content-center text-center " >
-          <NavLink href="#contact" className={styles.scroldown}>
+          <NavLink href="#contact" title="contact" className={styles.scroldown}>
             Scroll Down
           </NavLink>
         </Col>

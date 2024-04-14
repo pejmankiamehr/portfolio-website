@@ -5,7 +5,7 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <Container id="experience">
+    <Container className="containers" id="experience">
       <Stack className=" text-center">
         <h5>What Skills I Have</h5>
         <h2>My Experience</h2>

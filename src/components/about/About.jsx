@@ -7,7 +7,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <Container className=" text-center mt-1" id="about">
+    <Container className=" containers text-center mt-1" id="about">
       <Stack>
         <h5>Get To Know</h5>
         <h2>About Me</h2>
@@ -16,7 +16,7 @@ const About = () => {
         <Col lg={3} xs={10} className=" mb-5 mb-md-0">
           <div className="aboutme">
             <div className="imgbox">
-              <Image src="images/pejman kiamehr.png" alt="pejman kiamehr" title="پژمان کیامهر" className="me w-100 object-fit-cover" />
+              <Image src="images/pejman kiamehr.png" alt="کیامهر" title="kiamehr" className="me w-100 object-fit-cover" />
             </div>
           </div>
         </Col>

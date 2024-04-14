@@ -5,7 +5,7 @@ import "./Services.css";
 
 function Services() {
   return (
-    <Container id="services">
+    <Container className="containers" id="services">
       <Stack className=" text-center">
         <h5>What I Offer</h5>
         <h2>Services</h2>

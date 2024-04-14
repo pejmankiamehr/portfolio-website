@@ -10,7 +10,7 @@ import "./Workexperience.css";
 
 const Workexperience = () => {
   return (
-    <Container className=" text-center" id="testimonials">
+    <Container className=" containers text-center" id="testimonials">
       <Stack>
         <h5>WHAT I HAVE DONE SO FAR </h5>
         <h2>Work Experience</h2>
@@ -27,7 +27,7 @@ const Workexperience = () => {
           >
             <SwiperSlide>
               <Card className="text-white">
-                <Card.Img variant="top" src="/icon/Eight.png" className=" object-fit-contain avatar" />
+                <Card.Img variant="top" src="/icon/Eight.png" title="icon" alt="icon" className=" object-fit-contain avatar" />
                 <Card.Body>
                   <Card.Title>React js Developer</Card.Title>
                   <Card.Subtitle className="mb-4  subtext">
@@ -40,7 +40,7 @@ const Workexperience = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Card className="text-center text-white">
-                <Card.Img variant="top" src="/icon/yektamana.png" className="avatar" />
+                <Card.Img variant="top" src="/icon/yektamana.png" title="icon" alt="icon" className="avatar" />
                 <Card.Body>
                   <Card.Title>Websaite Admin</Card.Title>
                   <Card.Subtitle className="mb-4  subtext">
@@ -52,7 +52,7 @@ const Workexperience = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Card className="text-center text-white">
-                <Card.Img variant="top" src="/icon/yektamana.png" className="avatar" />
+                <Card.Img variant="top" src="/icon/yektamana.png" title="icon" alt="icon" className="avatar" />
                 <Card.Body>
                   <Card.Title>Content production specialist</Card.Title>
                   <Card.Subtitle className="mb-4  subtext">
