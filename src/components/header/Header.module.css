@@ -7,7 +7,7 @@
   align-items: center;
 }
 .scroldown {
-  margin-top: 6rem;
+  /* margin-top: 10rem; */
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;

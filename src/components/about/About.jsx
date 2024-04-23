@@ -1,5 +1,4 @@
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 import { Card, Col, Container, Image, Nav, NavLink, Row, Stack } from "react-bootstrap";
@@ -13,14 +12,14 @@ const About = () => {
         <h2>About Me</h2>
       </Stack>
       <Row className="justify-content-center gap-5">
-        <Col lg={3} xs={10} className=" mb-5 mb-md-0">
+        <Col lg={3} xs={10} md={3} className=" mb-5 mb-md-0">
           <div className="aboutme">
             <div className="imgbox">
-              <Image src="images/pejman kiamehr.png" alt="کیامهر" title="kiamehr" className="me w-100 object-fit-cover" />
+              <Image src="/images/pejman kiamehr.png" alt="کیامهر" title="kiamehr" className=" me w-100 object-fit-cover" />
             </div>
           </div>
         </Col>
-        <Col lg={6} className="  ms-0 ms-md-5">
+        <Col lg={6} md={7} className="  ms-0 ms-md-5">
           <Row xs={1} md={3} className="gy-4">
             <Col>
               <Card className=" text-white ">
