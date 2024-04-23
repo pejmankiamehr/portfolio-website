@@ -9,7 +9,7 @@ function Header() {
       <Stack>
         <h5>Hello I'm </h5>
         <h1>Pejman Kiamehr</h1>
-        <h5>Front-End Developer React JS </h5>
+        <h5>React front-end Developer</h5>
       </Stack>
       <CvT />
       <Row xs={1} md={3} lg={3} className=" align-content-center justify-content-center">
