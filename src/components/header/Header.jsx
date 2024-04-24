@@ -18,7 +18,8 @@ function Header() {
         </Col>
         <Col xs={10} md={3} lg={3} >
           <Stack className={styles.meheader}>
-            <img src="/images/kiamehr.png" alt="پژمان" title="pejman" style={{opacity:0.8}} className=" w-75 object-fit-cover"/>
+            <img src="/icon/kiamehr.png" alt="پژمان" title="pejman" style={{opacity:0.8}} className=" w-75 object-fit-cover"/>
+            <img src="/images/pejman kiamehr.png" alt="پژمان کیامهر" title="pejman kiamehr" style={{opacity:0.1}} className=" d-none"/>
           </Stack>
         </Col>
 

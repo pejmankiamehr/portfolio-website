@@ -12,14 +12,15 @@ const About = () => {
         <h2>About Me</h2>
       </Stack>
       <Row className="justify-content-center gap-5">
-        <Col lg={3} xs={10} md={3} className=" mb-5 mb-md-0">
+        <Col lg={3} xs={10} md={4} className=" mb-5 mb-md-0">
           <div className="aboutme">
             <div className="imgbox">
-              <Image src="/images/pejman kiamehr.png" alt="کیامهر" title="kiamehr" className=" me w-100 object-fit-cover" />
+              <Image src="/images/pejman kiamehr.png" alt="کیامهر" title="kiamehr" className=" d-lg-none  me w-100 object-fit-cover" />
+              <Image src="/images/pejman kiamehr.png" alt="پژمان کیامهر" title="pejman kiamehr" className=" d-none d-lg-block me w-100 object-fit-cover" />
             </div>
           </div>
         </Col>
-        <Col lg={6} md={7} className="  ms-0 ms-md-5">
+        <Col lg={6} md={10} className="  ms-0 ms-md-5">
           <Row xs={1} md={3} className="gy-4">
             <Col>
               <Card className=" text-white ">
@@ -46,9 +47,9 @@ const About = () => {
           </Row>
           <Stack className=" mt-4">
             <p className=" text-md-start">
-              Experienced React Developer with over 1 year of experience in designing and building organizational panels as well as developing websites, primarily focusing on front-end development.
-              Currently seeking an opportunity with an active and dynamic company to contribute to project development and further enhance personal skills. Strong preference for being part of a team
-              with multiple front-end developers.
+              I'm <strong>kiamehr</strong> Experienced React Developer More than 1 year of experience in website development and also organizational panels with React. Familiarity with Restfull Api
+              and experience of cooperation with Backend Developer, proficient in Responsive Design and familiarity with SEO. I am currently looking for an opportunity to work with a team of several
+              front-end developers.
             </p>
             <Nav className=" justify-content-center justify-content-md-start mt-3">
               <NavLink href="#contact" className="btn-sm btn-primary rounded-2">

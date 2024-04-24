@@ -1,6 +1,6 @@
 import { Nav, NavLink } from "react-bootstrap";
 import kiamerper from '/public/images/Pejman_kiamehr_Front_end_(pe)_.pdf'
-import kiameren from '/public/images/Pejman_kiamehr_Front_end_(en)_.pdf'
+import kiameren from '/public/images/Pejman kiamehr.pdf'
 
 function CvT() {
   return (

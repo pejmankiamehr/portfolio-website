@@ -1,6 +1,8 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow:/images/pejmankiamehr.jpg
+Allow:/images/
+Disallow:/images/Pejman_kiamehr_Front_end_(pe)_.pdf
+Disallow:/icon
 Sitemap: https://pejmankiamehr.ir/sitemap.xml
 
 

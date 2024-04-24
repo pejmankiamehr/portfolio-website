@@ -11,7 +11,7 @@ const Footer = () => {
       <Row xs={1} lg={1} className=" gap-5 py-5 justify-content-center ">
         <Col xs={3} lg={1}>
           <Stack className="boxlogo">
-            <Image src="/images/logo.png" title="pejman" alt="پژمان" />
+            <Image src="/images/logo.png" title="logo pejman" alt="پژمان" />
           </Stack>
         </Col>
         <Col>
